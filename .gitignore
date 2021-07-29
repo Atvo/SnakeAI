@@ -1,0 +1,3 @@
+*.txt
+sn_env/*
+__pycache__/*
