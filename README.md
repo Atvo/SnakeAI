@@ -6,9 +6,11 @@ The goal of the experiment was to use reinforcement learning and create an "inte
 
 ## Outcome
 As expected at the start of the exploration phase the actions of the agent are random and the scores are low.
+
 ![At the start of the exploration phase actions are random](https://github.com/Atvo/SnakeAI/blob/main/snake_start.gif)
 
 When the algorithm gradually moves from the exploration phase to the exploitation phase the behavior starts to seem much more rational. The following gif is from the end where the agent tries to choose the optimal action ~99.99% of the time.
+
 ![The agent behaves rationally and the snake eats food objects](https://github.com/Atvo/SnakeAI/blob/main/snake_end.gif)
 
 However, because the agent lacks the "complete picture", it can sometimes choose actions that will result in situations where it is impossible to survive. One such example can be seen below in which the snake's tail creates a dead end and the agent loses. Because of situations like these the maximum scores were typically around 55, which is still considerably lower than a typical human player would get after some training.
